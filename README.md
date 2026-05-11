@@ -28,8 +28,12 @@ Chrome extension that sets and enforces a default playback speed for HTML5 video
 1. Open Chrome and go to `chrome://extensions`.
 2. Enable `Developer mode`.
 3. Click `Load unpacked`.
-4. Select this project directory:
-   - `/Users/joshua/Downloads/twitter-video`
+4. Select the folder that contains this repository's extension files:
+   - `manifest.json`
+   - `popup.html`
+   - `popup.js`
+   - `popup.css`
+   - `content.js`
 
 ## Usage
 
@@ -82,4 +86,4 @@ The popup accepts numeric values from `0.25` to `4` in `0.25` increments. Invali
 
 ## License
 
-MIT. See [LICENSE](/Users/joshua/Downloads/twitter-video/LICENSE).
+MIT. See [LICENSE](LICENSE).
