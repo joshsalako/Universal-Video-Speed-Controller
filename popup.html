@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal Video Speed Controller</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <label class="popup__label" for="speed-input">Set Default Speed:</label>
+      <input
+        id="speed-input"
+        class="popup__input"
+        type="number"
+        min="0.25"
+        max="4"
+        step="0.25"
+        autocomplete="off"
+        aria-describedby="status-message"
+      />
+      <button id="save-button" class="popup__button" type="button">Save</button>
+      <p id="status-message" class="popup__status" aria-live="polite"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
